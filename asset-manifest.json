@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/auto_parts_hub/static/css/main.89bb5289.css",
+    "main.js": "/auto_parts_hub/static/js/main.bc26f7a6.js",
+    "static/media/bruno-kelzer-LvySG1hvuzI-unsplash.jpg": "/auto_parts_hub/static/media/bruno-kelzer-LvySG1hvuzI-unsplash.4a217f728ad86edf7bd3.jpg",
+    "static/media/campbell-3ZUsNJhi_Ik-unsplash.jpg": "/auto_parts_hub/static/media/campbell-3ZUsNJhi_Ik-unsplash.e80c73c9b0db3a7402fd.jpg",
+    "index.html": "/auto_parts_hub/index.html",
+    "main.89bb5289.css.map": "/auto_parts_hub/static/css/main.89bb5289.css.map",
+    "main.bc26f7a6.js.map": "/auto_parts_hub/static/js/main.bc26f7a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89bb5289.css",
+    "static/js/main.bc26f7a6.js"
+  ]
+}
