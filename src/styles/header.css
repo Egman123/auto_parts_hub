@@ -1,0 +1,389 @@
+/* ================================= Headaer =================================== */
+/* .Header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.darkHeader {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: darkslategray;
+} */
+
+/* menu button */
+/* .menuOutlined {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.menuOutlined:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+/* header content */
+
+/*.header_content {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header_logo {
+  display: flex;
+}
+
+.logo_img {
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: absolute;
+  top: 1.5rem;
+  left: 5rem;
+  border-radius: 10px;
+}
+
+.text_logo {
+  font-size: 1.3rem;
+}
+
+.header_search {
+  background: url("../background_images/icons8-search-50.png") no-repeat center
+    right;
+  background-size: contain;
+  background-color: aliceblue;
+  color: gray;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 700px;
+  height: 2rem;
+}
+
+.header_icons {
+  display: flex;
+}
+
+.sign_in {
+  margin: 0 1rem;
+}
+
+.ShoppingCartOutlined,
+.UserOutlined {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.ShoppingCartOutlined:hover,
+.UserOutlined:hover {
+  transform: scale(1.2);
+  color: white;
+} */
+
+/* header navbar */
+
+ /* .header_navbar {
+  z-index: 5;
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 900px; 
+  bottom: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  background-color: #f1f1f1;
+  opacity: .9;
+} 
+
+.dark_header_navbar {
+  color: white;
+  z-index: 5;
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 900px; 
+  bottom: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  background-color: #000;
+  opacity: .9;
+}
+
+.dark_header_navbar a {
+  color: white;
+}
+
+.in_active {
+  clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+}
+
+/* toggle mode(light-dark) */
+
+ /*li {
+  height: 5rem;
+}
+
+ li a {
+  display: block;
+  color: #000;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+
+
+ li a:hover {
+  background-color: #555;
+  color: white;
+} */
+
+/* langauage button */
+
+/*  */
+
+/* Close menu */
+
+/* .CloseOutlined {
+  z-index: 1000;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  left: 28rem;
+}
+
+.CloseOutlined:hover {
+  color: white;
+} */
+
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.darkHeader {
+  color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+}
+
+.logo-button {
+  width: 100px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.logo-button img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.menuOutlined {
+  margin-right: 20px;
+  font-size: 1.3rem;
+}
+
+.search-input {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.search-input input {
+  width: 500px;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.cart-icon {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.register-button {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.language-toggle {
+  margin-right: 10px;
+}
+
+.mode-toggle {
+  margin-right: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.switch > span {
+  position: absolute;
+  top: 14px;
+  pointer-events: none;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+  width: 50%;
+  text-align: center;
+}
+
+input.check-toggle-round-flat:checked ~ .off {
+  color: black;
+}
+
+input.check-toggle-round-flat:checked ~ .on {
+  color: #fff;
+}
+
+.switch > span.on {
+  left: 0;
+  padding-left: 2px;
+  color: black;
+}
+
+.switch > span.off {
+  right: 0;
+  padding-right: 4px;
+  color: #fff;
+}
+
+.check-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.check-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+input.check-toggle-round-flat + label {
+  padding: 2px;
+  width: 97px;
+  height: 35px;
+  background-color: gray;
+  border-radius: 60px;
+}
+input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+
+input.check-toggle-round-flat + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: gray;
+  border-radius: 60px;
+}
+input.check-toggle-round-flat + label:after {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 48px;
+  background-color: #fff;
+  border-radius: 52px;
+ 
+}
+
+
+input.check-toggle-round-flat:checked + label:after {
+  margin-left: 44px;
+}
+
+/* header navbar */
+
+.header_navbar {
+   display: block;
+   position: absolute;
+   top: 0; left: 0;
+   background: white;
+   padding: 1rem;
+   height: 100vh;
+   width: 300px;
+}
+
+.darkHeader .header_navbar {
+   display: block;
+   position: absolute;
+   top: 0; left: 0;
+   background: black;
+   padding: 1rem;
+   height: 100vh;
+   width: 300px;
+}
+
+.header_navbar_inActive {
+ display: none;
+}
+
+.darkHeader .header_navbar_inActive {
+  display: none;
+}
+
+.header_navbar li {
+  margin-top: 1rem;
+}
+
+.header_navbar li a {
+  padding: .5rem;
+  display: block;
+}
+
+.header_navbar li a:hover {
+  background: #555;
+  color: white;
+}
+
+.CloseOutlined {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.header_navbar_inActive .CloseOutlined {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}

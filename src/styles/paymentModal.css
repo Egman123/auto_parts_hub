@@ -1,0 +1,75 @@
+.payment_modal_window {
+    background: lightcyan;
+    text-align: center;
+    width: 330px;
+    height: 400px;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px 2px #888888;
+}
+
+.close_payment_modal {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    color: gray;
+}
+
+.paymentMethod_title {
+    padding: 3rem 2rem 1rem 2rem;
+    color: black;
+}
+
+.methods {
+    cursor: pointer;
+}
+
+.methods .method {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: .5rem;
+    height: 3rem;
+    width: 280px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 1rem;
+    
+}
+
+.methods .method img {
+   width: 30px;
+   height: 30px;
+}
+
+.method_qrCodeOutlined {
+    width: 30px;
+    height: 30px;
+}
+
+.method_rightOutlined {
+    margin-left: 9rem;
+}
+
+.method:hover {
+   border-color: blue;
+   color: blueviolet;
+}
+
+.select_PayMethod_btn {
+    cursor: pointer;
+    width: 270px;  
+    height: 50px;
+    margin: 0 1rem;
+    margin-top: 1rem; 
+    background: #CB11AB;
+    color: white;
+    border-radius: 10px;
+}
+
+.select_PayMethod_btn:hover {
+    opacity: .7;
+}

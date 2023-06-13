@@ -1,0 +1,256 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "title": "audi",
+      "image": "assets/audi_logo.jpg"
+    },
+    {
+      "id": 2,
+      "title": "mersedes benz",
+      "image": "assets/mersedes_logo.jpg"
+    },
+    {
+      "id": 3,
+      "title": "bmw",
+      "image": "assets/bmw_logo.jpg"
+    },
+    {
+      "id": 4,
+      "title": "volkswagen",
+      "image": "assets/volkswagen_logo.jpg"
+    },
+    {
+      "id": 5,
+      "title": "toyota",
+      "image": "assets/toyota_logo.jpg"
+    },
+    {
+      "id": 6,
+      "title": "tesla",
+      "image": "assets/tesla_logo.jpg"
+    }
+  ],
+  "models": [
+    {
+      "id": 1,
+      "model": "mersedez",
+      "image": "assets/model_mersedes.jpg"
+    },
+    {
+      "id": 2,
+      "model": "bmw",
+      "image": "assets/model_bmw.jpg"
+    },
+    {
+      "id": 3,
+      "model": "audi",
+      "image": "assets/model_audi.jpg"
+    },
+    {
+      "id": 4,
+      "model": "volkswagen",
+      "image": "assets/model_volkswagen.jpg"
+    },
+    {
+      "id": 5,
+      "model": "toyota",
+      "image": "assets/model_toyota.jpg"
+    },
+    {
+      "id": 6,
+      "model": "tesla",
+      "image": "assets/model_tesla.jpg"
+    }
+  ],
+  "accessories": [
+    {
+      "id": 1,
+      "name": "wheel",
+      "longName": "Cooper Evolution HT2 265/60R18 110T Passenger/Truck/SUV Tire",
+      "image": "assets/accesories_wheel1.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Best-in-class all-around performance Confident driving in all weather conditions Visual Alignment Indicators"
+    },
+    {
+      "id": 2,
+      "name": "headlights",
+      "longName": "Spyder Auto 5085801 Light Bar Projector Headlights Fits Grand Cherokee (WK2)",
+      "image": "assets/accesories_headLights.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Best-in-class all-around performance Confident driving in all weather conditions Visual Alignment Indicators"
+    },
+    {
+      "id": 3,
+      "name": "oil",
+      "longName": "Pennzoil Platinum High Mileage Full Synthetic",
+      "image": "assets/accesories_oil1.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Best-in-class all-around performance Confident driving in all weather conditions Visual Alignment Indicators"
+    },
+    {
+      "id": 4,
+      "name": "car alarm",
+      "longName": "Technaxx car Alarm with Charging Function",
+      "image": "assets/accesories_part.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Best-in-class all-around performance Confident driving in all weather conditions Visual Alignment Indicators"
+    },
+    {
+      "id": 5,
+      "name": "brake rotors",
+      "longName": "Power Stop® Evolution Drilled and Slotted",
+      "image": "assets/accesories_brake_rotors.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 50,
+      "description": "Best-in-class all-around performance Confident driving in all weather conditions Visual Alignment Indicators"
+    },
+    {
+      "id": 6,
+      "name": "custom wheel",
+      "longName": "Grid OffRoad Custom Wheel for 18x9 Rim Matte Black Wheel",
+      "image": "assets/accesories_custom_wheel1.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Best-in-class all-around performance Confident driving in all weather conditions Visual Alignment Indicators"
+    },
+    {
+      "id": 7,
+      "name": "radio",
+      "longName": "Dual Electronics XDM17BT Single DIN Car Stereo, Bluetooth, Siri/Google Assistant, USB, MP3, AM/FM Radio",
+      "image": "assets/accesories_radio.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Best-in-class all-around performance Confident driving in all weather conditions Visual Alignment Indicators"
+    }
+  ],
+  "accessoriesRu": [
+    {
+      "id": 1,
+      "name": "колесо",
+      "longName": "Cooper Evolution HT2 265/60R18 110T Шина для легковых автомобилей/грузовиков/SUV",
+      "image": "assets/accesories_wheel1.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Лучшая производительность во всех областях Уверенное вождение во всех погодных условиях Визуальные индикаторы выравнивания"
+      },
+      {
+      "id": 2,
+      "name": "фары",
+      "longName": "Проекторные фары Spyder Auto 5085801 Light Bar для Grand Cherokee (WK2)",
+      "image": "assets/accesories_headLights.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Лучшая производительность во всех областях Уверенное вождение во всех погодных условиях Визуальные индикаторы выравнивания"
+      },
+      {
+      "id": 3,
+      "name": "масло",
+      "longName": "Полностью синтетическое масло Pennzoil Platinum High Mileage",
+      "image": "assets/accesories_oil1.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Лучшая производительность во всех областях Уверенное вождение во всех погодных условиях Визуальные индикаторы выравнивания"
+      },
+      {
+      "id": 4,
+      "name": "сигнализация",
+      "longName": "Автомобильная сигнализация Technaxx с функцией зарядки",
+      "image": "assets/accesories_part.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Лучшая производительность во всех областях Уверенное вождение во всех погодных условиях Визуальные индикаторы выравнивания"
+      },
+      {
+      "id": 5,
+      "name": "тормозные диски",
+      "longName": "Тормозные диски Power Stop® Evolution с отверстиями и пазами",
+      "image": "assets/accesories_brake_rotors.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 50,
+      "description": "Лучшая производительность во всех областях Уверенное вождение во всех погодных условиях Визуальные индикаторы выравнивания"
+      },
+      {
+      "id": 6,
+      "name": "переднее колесо",
+      "longName": "Заднее колесо Grid OffRoad для диска 18x9 Matte Black",
+      "image": "assets/accesories_custom_wheel1.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Лучшая производительность во всех областях Уверенное вождение во всех погодных условиях Визуальные индикаторы выравнивания"
+      },
+      {
+      "id": 7,
+      "name": "радио",
+      "longName": "Автомагнитола Dual Electronics XDM17BT Single DIN с Bluetooth, Siri/Google Assistant, USB, MP3, AM/FM Radio",
+      "image": "assets/accesories_radio.jpg",
+      "count": 1,
+      "price": 125,
+      "discountedPrice": 100,
+      "description": "Лучшая производительность во всех областях Уверенное вождение во всех погодных условиях Визуальные индикаторы выравнивания"
+      }
+  ],
+  "languages": [
+    {
+      "header": {
+        "inputPlaceholder": "Найти запчасти и продукты",
+        "cart": "Корзина",
+        "registration": "Регистрация"
+      },
+      "navbar": {
+        "home": "Главный",
+        "news": "Новости",
+        "contact": "Контакт",
+        "about": "О Нашей Компаний"
+      },
+      "titles": {
+        "brands": "Популярные бренды",
+        "models": "Популярные Модели",
+        "accessories": "Популярные аксессуары"
+      },
+      "langAccessories": [
+        "колесо",
+        "фары",
+        "Масло",
+        "автомобильная сигнализация",
+        "тормузы",
+        "нестандартное колесо",
+        "радио"
+      ],
+      "footer": {
+        "Models": "Модели",
+        "Batter": "Аккумуляторы",
+        "Disks": "Диски",
+        "Tires": "Шины",
+        "Oils": "Масла",
+        "Feedback": "Отзывы",
+        "SignIn": "Войти",
+        "SignUp": "Зарегистрироваться",
+        "MyAccounts": "Мой аккаунт",
+        "HowItWorks": "Как это работает",
+        "Contacts": "Контакты",
+        "SellerDashboard": "Панель продавца",
+        "Information": "Информация",
+        "CustomerService": "Обслуживание клиентов",
+        "SupplierService": "Обслуживание поставщиков"
+      }
+    }
+  ]
+}

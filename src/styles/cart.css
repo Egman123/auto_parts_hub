@@ -1,0 +1,181 @@
+.Cart {
+  /* margin: 10rem 0; */
+  height: 1000px;
+  width: 100%;
+  padding-top: 10rem;
+  background: url("../background_images/bruno-kelzer-LvySG1hvuzI-unsplash.jpg")
+    no-repeat center;
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+}
+
+.fill_Cart {
+  height: 1000px;
+  width: 100%;
+  padding-top: 10rem;
+  background: lightgray;
+    /* no-repeat center; */
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+}
+
+.dark_fill_Cart {
+  color: lightgray;
+  height: 1000px;
+  width: 100%;
+  padding-top: 10rem;
+  background: black;
+    /* no-repeat center; */
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+}
+
+.dark_fill_Cart .cart_img{
+  opacity: 0.3;
+}
+
+.dark_fill_Cart .checkout {
+  background: black;
+  border: 1px solid gray;
+}
+
+.dark_fill_Cart .cartAccessor_name {
+  color: lightgray;
+}
+
+.dark_fill_Cart .subtotal_price {
+  color: lightgray;
+}
+
+/* .dark_Cart {
+    height: 770px;
+    width: 100%;
+    padding-top: 7rem;
+    background: black;
+    color: white;
+} */
+
+.cart_inner {
+  text-align: center;
+}
+
+
+
+.removeAllCartAccessories {
+  cursor: pointer;
+ position: absolute;
+ right: 15rem;
+ top: 8rem;
+ padding: .5rem;
+ background: red;
+ color: white;
+}
+
+.removeAllCartAccessories:hover {
+  opacity: .8;
+}
+
+.cart_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart_img {
+  font-size: 10rem;
+  margin-top: 10rem;
+}
+
+.cartAccessors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+.cartAccessor {
+
+  text-align: center;
+  position: relative;
+ 
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.cartAccessor_name {
+
+  font-size: 1.2rem;
+  color: black;
+}
+
+.cartAccessor_img {
+  width: 100%;
+  height: 100%;
+}
+
+.cartAccessor_btns {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cartAccessor_btns button {
+  cursor: pointer;
+  padding: 0 .4rem;
+  font-size: 1.4rem;
+}
+
+.checkout {
+  border-radius: 10px;
+  width: 30%;
+  height: 150px;
+ background: white;
+}
+
+.subtotal_title {
+  font-size: 1.2rem;
+  font-weight: 200;
+  /* color: gray; */
+  padding: .5rem;
+}
+
+.subtotal_price {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subtotal_btn {
+  width: 200px;
+  background: gray;
+  padding: .8rem;
+  margin: .5rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subtotal_btn:hover {
+  opacity: .9;
+}
+
+.deleteCartAccessor {
+  cursor: pointer;
+  border: 1px solid gray;
+  padding: .2rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: -1rem;
+  right: 1rem;
+}
+
+.deleteCartAccessor:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+
+
+/* 
+}.light_cart_mode { */

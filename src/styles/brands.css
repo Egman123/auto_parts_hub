@@ -1,0 +1,46 @@
+.Brands {
+    padding-bottom: 10rem;
+    margin-top: 21rem;
+}
+
+.darkBrands {
+  padding-bottom: 10rem;
+  background: black;
+  border-bottom: .5px solid gray;
+  opacity: .9;
+  margin-top: 21rem;
+}
+
+.allBrands {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+
+.brands_swiper {
+    width: 1200px;
+}
+
+.brand {
+    width: 33%;
+    margin: 2rem 0;  
+    text-align: center;
+}
+
+.brand_image {
+    cursor: pointer;
+  
+    width: 300px;
+    height: 200px;
+}
+
+.brand_image:hover {
+    transform: scale(1.2);
+    opacity: .7;
+}
+
+.brand_name {
+  font-size: 1.4rem;
+}

@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: .3s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style-type: none;
+}

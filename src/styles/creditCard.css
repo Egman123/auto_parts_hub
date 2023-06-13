@@ -1,0 +1,62 @@
+
+
+.CreditCard .card {
+    padding-top: 12rem;
+    display: flex;
+}
+
+
+
+.card_form { 
+    position: absolute;
+    top: 17rem;
+    left: 7rem;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    height: 30px;
+    width: 700px;
+} 
+
+.card_form input{
+   border: 1px solid lightgray;
+   padding: .7rem;
+   margin-top: 1rem;
+   font-size: 1.3rem;
+   
+}
+
+.link_card_button {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 1rem;
+    width: 280px;
+    background: blue;
+    color: white;
+    padding: 1rem;
+}
+
+.link_card_button:hover {
+    opacity: .7;
+}
+
+.valid_thru_input {
+    width: 182px;
+}
+
+.cvc_input {
+    width: 100px;
+}
+
+.card_text {
+   
+    margin-left: 20rem;
+    width: 700px;
+    margin-top: 3rem;
+    color: lightgray;
+}
+
+.card_text p {
+    background: none; 
+    font-size: 1.1rem;
+}  

@@ -1,0 +1,72 @@
+.Accessories {
+  padding-bottom: 5rem;
+  /* opacity: .9; */
+}
+
+.dark_accessories {
+  background: black;
+  padding-bottom: 5rem;
+}
+
+
+
+.accessories_innner {
+  /* width: 48%; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+
+.accessor {
+  position: relative;
+  color: lightgray;
+  border: 1px solid gray;
+  width: px;
+  height: 300px;
+  text-align: center;
+}
+
+.accessor:hover {
+  transform: scale(1.1);
+}
+
+.accessor_content {
+  padding: .7rem;
+  position: absolute;
+  bottom: .4rem;
+  left: .4rem;
+  color: lightgray;
+  /* display: flex; */
+  font-size: 1rem;
+}
+
+.accessor_image {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  height: 60%;
+  opacity: 0.7;
+}
+
+.accessor_price {
+  display: block;
+  text-decoration:line-through;
+}
+
+.accessories_cart {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.accessories_cart:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
